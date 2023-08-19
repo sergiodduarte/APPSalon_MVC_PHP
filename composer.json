@@ -1,0 +1,24 @@
+{
+    "name": "sergio/appsalon",
+    "description": "Proyecto app salon con paginas de login, logout y recuperacion de clave",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Sergio\\Appsalon\\": "src/",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergio",
+            "email": "sdduarte87@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
